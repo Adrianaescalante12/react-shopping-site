@@ -12,7 +12,7 @@ function Homepage(props) {
 function AllMelonsPage(props) {
   const { melons } = props;
   const melonCards = [];
-
+  // const [melons, setMelons] = React.useState({});
   for (const melon of Object.values(melons)) {
     const melonCard = (
       <MelonCard
